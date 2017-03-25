@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: url("../images/bgtile.png") repeat-x;
-  width: 900px;
+  width: 850px;
   margin: auto;
 }
 
@@ -16,26 +16,28 @@ img{
 }
 
 .major{
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-top: 100px;
+  height: 500px;
 }
 
 .phone {
   float: left;
-  width: 40%;
+  width: 37%;
 }
 
 section.majorright {
-  width: 55%;
+  width: 58%;
   float: right;
-  height: 420px;
+  height: 500px;
 }
 
 .logo {
  position: relative;
  top: 20px;
  width: 60%;
+ padding-bottom: 20px;
 }
 
 .frame {
@@ -49,24 +51,60 @@ section.majorright {
 
 .para {
   display: block;
-
 }
 
 h3{
-  position: absolute;
+  position: relative;
   display: block;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px 20px 0px;
   height: 100px;
-  top:30px;
-  left: 30px;
+  top:40px;
+  left: 40px;
   width: 50%;
   text-align: left;
   color: #1c5380;
 }
 
 p {
-color: green;
-z-index: 5;
-display:inline;
+  position: relative;
+  color: black;
+  display:block;
+  margin: 0px;
+  padding: 0 0 15px 0;
+  font-size: .9em;
+  left: 40px;
+  width: 81%;
+}
+
+.icon {
+  position: relative;
+  display:inline;
+  margin-left: 40px;
+  width: 25%;
+}
+.icon2 {
+  position: relative;
+  display:inline;
+  margin-left: 20px;
+  width: 25%;
+}
+
+.end p{
+  margin-top: 100px
+  margin: auto;
+  clear: left;
+  display: inline;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+div.end{
+margin: auto;
+text-align: center;
+}
+
+a {
+  padding: 10px;
+
 }
